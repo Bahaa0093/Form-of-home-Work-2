@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="./styles/Style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Playwrite+CU:wght@100..400&family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+<div class="form-div">
+    <form onsubmit="  Click(event)  ">
+        <table >
+            <tr>
+                <td id="heading0"  class=".protest-guerrilla-regular" colspan="2"> <h1 >  Presonal Information Form </h1>
+
+                </td>
+            </tr>
+            <tr>
+                <td> Name     </td>
+                <td id="td2">  <Input type="text"  id="name"  placeholder="enter your name here"/>    </td>
+            </tr>
+
+            <tr>
+                <td>    Password:    </td>
+                <td id="td2">    <input type="password" id="password" placeholder=" Enter your password here">     </td>
+            </tr>
+
+            <tr>
+                <td>    Gender     </td>
+                <td id="td2"> 
+                     Male <input type="radio" value="Male"   name="Gender">    
+                     Female <input type="radio" value="Female"   name="Gender">    
+                      </td>
+            </tr>
+
+            <tr>
+                <td>      Education     </td>
+                <td id="td2"> 
+                <select id="education">
+              <option value="BCS">BCS</option>
+              <option value="BBA">BBA</option>
+              <option value="MBBS">MBBS</option>
+              <option value="MBA">MBA</option>
+                </select>
+               </td>
+            </tr>
+
+            <tr>
+                <td>  
+                     Hobbies
+                 </td>
+                <td id="td2">
+                    Play Game <input type="checkbox" name="Hobbies" value="Play Game" >   
+                    Go to park <input type="checkbox" name="Hobbies" value="Go to park"  >   
+                    Study <input type="checkbox" name="Hobbies" value="Study " >   
+                    Work Hard <input type="checkbox" name="Hobbies" value="Work Hard" >   
+                 </td>
+            </tr>
+            <tr>
+                <td>
+                    Comment
+                </td>
+                <td id="td2">
+<textarea id="Comment" cols="50" rows="5">  Your Comments Here...</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"> <button type="submit">
+                    Submit
+                </button>    </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<div class="form-div">
+ <table >
+<tr>
+    <td id="nameResult">   </td>
+</tr>
+<tr>
+    <td id="passwordResult">     </td>
+</tr>
+<tr>
+    <td id="genderResult">     </td>
+</tr>
+<tr>
+    <td id="hobbyResult">     </td>
+</tr>
+<tr>
+    <td id="educationResult">     </td>
+</tr>
+<tr>
+    <td id="CommentResult">     </td>
+</tr>
+
+
+
+
+ </table>   
+</div>
+
+
+</div>
+
+
+     
+
+
+
+
+
+<script src="./js/functionality.js"></script>
+
+</body>
+
+
+
+
+
+
+</html>

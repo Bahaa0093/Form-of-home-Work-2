@@ -1,0 +1,87 @@
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  #heading{ height: 20px;
+width: 100%;
+text-align: center;}
+  #td2{
+    width: 100%;
+  }
+  table{
+    width: 100%;
+     border-radius: 114px 21px 114px 21px;
+  }
+
+input[type='text'],input[type="password"],#comment{ 
+height: 30px;
+font-family: Abdulhai;
+font-weight: 100;
+
+border-radius: 10px;
+background-color: transparent;
+color: blueviolet;
+padding: 4px;
+
+}
+
+
+  .form-div{
+    border: 3px; inset: ;
+    padding: 6%;
+    box-shadow: 20px 25px 20px 10px rgba(173,4,95,0.67);
+-webkit-box-shadow: 20px 25px 20px 10px rgba(173,4,95,0.67);
+-moz-box-shadow: 20px 25px 20px 10px rgba(173,4,95,0.67)
+border-radius: 114px 21px 114px 21px;
+-webkit-border-radius: 114px 21px 114px 21px;
+-moz-border-radius: 114px 21px 114px 21px;
+border: 10px solid #ff50f5;
+}
+  td{ padding: 30px;
+width: 20%;}
+  .container{ 
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+  
+     flex-wrap:wrap;
+  }
+
+  @font-face {
+    font-family: Abdulhai;
+    src: url(../fonts/Protest_Guerrilla\,Roboto.zip);
+  }
+
+body{ font-family: "Roboto", sans-serif;
+    font-weight:300;
+    font-style: normal;
+background-image: url(./background.jpg) ;
+background-repeat:repeat-y;
+background-size: cover;
+ 
+
+}  
+button{ 
+  background-color: chocolate;
+  color: blueviolet;
+  font-family: abdulhai;
+  border: 3px outset blueviolet;
+  text-align: center;
+  width: 60%;
+  height: 40%;
+  border-radius: 10px;
+margin-left: 30%;
+}
+button:hover{
+  background-color: rgb(35, 21, 236);
+  color: rgb(238, 40, 139);
+  font-family: abdulhai;
+  border: 3px outset rgb(226, 43, 128);
+  text-align: center;
+  width: 60%;
+  height: 40%;
+  border-radius: 10px;
+margin-left: 30%;
+}
